@@ -292,20 +292,6 @@
     <string name="AR_link">Already have an Account? Login</string>
 
 
-    //add items
-    <string name="AI_toolbar">Add Items</string>
-    <string name="AI_title">Add Items</string>
-    <string name="AI_category">Category :-</string>
-    <string name="AI_sel">Select</string>
-    <string name="AI_name">Name :-</string>
-    <string name="AI_eName">Name of the Accessory</string>
-    <string name="AI_Price">Price :-</string>
-    <string name="AI_ePrice">Price</string>
-    <string name="AI_des">Description :-</string>
-    <string name="AI_eGen">Generation</string>
-    <string name="AI_but">SUBMIT</string>
-
-
     //update accessories
     <string name="UA_toolbar">Update Profile</string>
     <string name="UA_title0">Update Accessories</string>
@@ -365,4 +351,115 @@
     <string name="AD_n1">032 2245789</string>
     <string name="AD_but_3">Brand New Computers</string>
     <string name="AD_but_4">Computer Accessories</string>
+
+    <!--update profile-->
+    <string name="UP_tile1">Update Profile</string>
+    <string name="UP_tile0">Update Profile</string>
+    <string name="UP_add">Address :-</string>
+    <string name="UP_email">Email Address :-</string>
+    <string name="UP_con">Contact Number :-</string>
+    <string name="UP_but">Update Profile</string>
+    <string name="UP_enadd">Enter the Address</string>
+    <string name="UP_enEmail">Enter the email Address</string>
+    <string name="UP_enCon">Enter The contact Number</string>
+
+    <!--update details-->
+    <string name="UP_tile2">Update Details</string>
+    <string name="UP_Detaila">Update Details</string>
+    <string name="UP_name">Name :-</string>
+    <string name="UP_ent_name">Computer / Laptop Name</string>
+    <string name="UP_price">price :-</string>
+    <string name="UP_ent_price">Price</string>
+    <string name="UP_genaration">Genaration :-</string>
+    <string name="UP_ent_gen">Genaration</string>
+    <string name="UP_hdd">Hdd Space :-</string>
+    <string name="UP_ent_hdd">Hdd Space</string>
+    <string name="UP_memory">Graphics memory :-</string>
+    <string name="UP_ent_mem">Graphics memory</string>
+    <string name="UP_ram">Ram :-</string>
+    <string name="UP_ent_ram">Ram</string>
+    <string name="UP_but1">Submit</string>
+    <string name="UP_link">If you want to delete this account ? Click hear </string>
+
+    <!--discount-->
+    <string name="dis_tile3">Discount</string>
+    <string name="discount">Give Discount</string>
+    <string name="dis_price">Price :- 210 000</string>
+    <string name="dis_period">discount Period :-</string>
+    <string name="dis_ent_period">Enter Discount period</string>
+    <string name="dis_discount">discount :-</string>
+    <string name="dis_ent_dis">Enter Discount Rate</string>
+    <string name="dis_but">CALCULATER</string>
+    <string name="dis_Newprice">New Price :-  200 000</string>
+
+    <!--delete profile-->
+    <string name="del_tile4">delete Profile</string>
+    <string name="del_delepro">Delete Profile</string>
+    <string name="del_id">LOGING ID :-</string>
+    <string name="del_ent_id">DRpc123</string>
+    <string name="del_email">EMAILL   :-</string>
+    <string name="del_ent_email">drpc789@gmail.com</string>
+    <string name="del_address">ADDRESS :-</string>
+    <string name="del_ent_address">No 78,Vihara mavatha,gampaha.</string>
+    <string name="del_pho">COUNTACT NO :-</string>
+    <string name="del_ent_pho1">033 - 1258964</string>
+    <string name="del_ent_pho2">076 - 7859641</string>
+    <string name="del_pas">PASSWORD :-</string>
+    <string name="del_ent_pas">7898has*</string>
+    <string name="del_man">MANAGER NAME:-</string>
+    <string name="del_ent_man">Sadaru bandara</string>
+    <string name="del_one">OWNER NAME :-</string>
+    <string name="del_ent_one">Chamuditha Wikramasinha</string>
+    <string name="del_but">DELETE PROFILE</string>
+
+    <!--catagary-->
+    <string name="cat_titel4">Category</string>
+    <string name="cat_category">Choose Your category</string>
+    <string name="cat_com">COMPUTER</string>
+    <string name="cat_lap">LAPTOPS</string>
+
+    <!--laptop-->
+    <string name="lap_laptop">Laptops</string>
+    <string name="lap_lap">Laptops</string>
+    <string name="lap_but1">Discount</string>
+    <string name="lap_but2">Update</string>
+    <string name="lap_name">Name :- DELL i5</string>
+    <string name="lap_brand1">(Brand - Dell , genaration - 11 )</string>
+    <string name="lap_dis">Discription</string>
+    <string name="lap_dis_hdd">Hdd Space :- 1TB</string>
+    <string name="lap_dis_memo">Graphics Memory :- 2GB</string>
+    <string name="lap_dis_ram">Ram :- 4GB</string>
+    <string name="lap_b_price">Price - 175 000</string>
+    <string name="lap_but3">Discount</string>
+    <string name="lap_but4">Update</string>
+    <string name="lap_b_name1">Name :- ASUS i3</string>
+    <string name="lap_b_brand2">(Brand - Asus , genaration - 10 )</string>
+    <string name="lap_dis1">Discription</string>
+    <string name="lap_dis_hdd1">Hdd Space :- 500GB</string>
+    <string name="lap_dis_memo1">Graphics Memory :- 2GB</string>
+    <string name="lap_dis_ram1">Ram :- 4GB</string>
+    <string name="lap_b_price1">Price - 145 000</string>
+
+    <!--computer-->
+    <string name="com_com">Computers</string>
+    <string name="com_but1">Discount</string>
+    <string name="com_but2">Update</string>
+    <string name="com_name">Name :- DELL i7</string>
+    <string name="com_brand1">(Brand - Dell , genaration - 11 )</string>
+    <string name="com_dis">Discription</string>
+    <string name="com_dis_hdd">Hdd Space :- 1TB</string>
+    <string name="com_dis_memo">Graphics Memory :- 2GB</string>
+    <string name="com_dis_ram">Ram :- 4GB</string>
+    <string name="com_b_price">Price - 185 000</string>
+    <string name="com_but3">Discount</string>
+    <string name="com_but4">Update</string>
+    <string name="com_b_name1">Name :- ASUS i7</string>
+    <string name="com_brand2">(Brand - Asus , genaration - 10 )</string>
+    <string name="com_dis1">Discription</string>
+    <string name="com_dis_hdd1">Hdd Space :- 1TB</string>
+    <string name="com_dis_memo1">Graphics Memory :- 2GB</string>
+    <string name="com_dis_ram1">Ram :- 8GB</string>
+    <string name="com_b_price1">Price - 145 000</string>
+
+
 </resources>

@@ -90,6 +90,15 @@ public class Admin_Profile extends AppCompatActivity {
               }
         });
 
+        computer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), Admin_Brand_New.class);
+                startActivity(i);
+
+            }
+        });
+
     }
 
     public void Admindelete(){
