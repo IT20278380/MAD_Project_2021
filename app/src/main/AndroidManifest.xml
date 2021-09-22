@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mad_project_2021">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/image"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MAD_Project_2021">
+        <activity
+            android:name=".Admin_Update"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Profile"
+            android:exported="true" />
+        <activity android:name=".Deliver_Update" />
+        <activity android:name=".Deliver_Profile" />
+        <activity android:name=".Deliver_Register" />
+        <activity android:name=".Admin_Register" />
+        <activity android:name=".Deliver_Login" />
+        <activity android:name=".Admin_Loin" />
+        <activity android:name=".Cus_Register" />
+        <activity android:name=".Cus_Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

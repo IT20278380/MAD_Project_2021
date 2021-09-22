@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Profile">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/appname"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/green"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:logo="@drawable/ic_baseline_account_box_24"
+        app:title="Admin Profile"
+        app:titleMarginStart="40dp" />
+
+    <ImageView
+        android:id="@+id/ADPimageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="68dp"
+        android:contentDescription="@string/C.reApp_name"
+        android:src="@mipmap/image_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ADP_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="100dp"
+        android:text="@string/AD_title"
+        android:textColor="#040303"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <Button
+        android:id="@+id/ADP_but_1"
+        android:layout_width="173dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/AD_but_1"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <Button
+        android:id="@+id/ADP_but_2"
+        android:layout_width="171dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/AD_but_2"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <Button
+        android:id="@+id/ADP_but_3"
+        android:layout_width="255dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="560dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/AD_but_3"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="598dp" />
+
+    <Button
+        android:id="@+id/ADP_but_4"
+        android:layout_width="255dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/AD_but_4"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="651dp" />
+
+    <TextView
+        android:id="@+id/ADP_adr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="330dp"
+        android:text="@string/AD_adr"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:id="@+id/ADP_email"
+        android:layout_width="160dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="410dp"
+        android:text="@string/AD_email"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <TextView
+        android:id="@+id/ADP_num"
+        android:layout_width="160dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="489dp"
+        android:text="@string/AD_num"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <TextView
+        android:id="@+id/ADP_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="330dp"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/ADP_enmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="410dp"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <TextView
+        android:id="@+id/ADP_n1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="489dp"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+
+</RelativeLayout>

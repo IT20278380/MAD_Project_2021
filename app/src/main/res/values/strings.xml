@@ -1,0 +1,368 @@
+<resources>
+    <string name="app_name">Dr.PC</string>
+    <string name="but_cus_log">Costomer Login</string>
+    <string name="but_admin_log">Admin Login</string>
+    <string name="but_deli_log">Deliver Login</string>
+    <string name="txt_cpyrht">2021 CopyRight</string>
+
+    <!--customer login-->
+    <string name="tet_cusLogin">Customer Login</string>
+    <string name="tet_cusLog_Email">Email :-</string>
+    <string name="tet_cusLog_Pass">Password :-</string>
+    <string name="cusLog_inEmail">Enter Email</string>
+    <string name="but_cusLogin">Login</string>
+    <string name="cusLog_reLink">Dont have an account ? sign up</string>
+    <string name="txt_cusCpy">2021 CopyRight</string>
+
+    <!--customer register-->
+    <string name="C.reApp_name">Customer Registration</string>
+    <string name="C.main_name">Register Customer</string>
+    <string name="C.reName">Full Name :-</string>
+    <string name="C.reEmail">Email :-</string>
+    <string name="C.reMobile">Mobile Number :-</string>
+    <string name="C.rePass">Password :-</string>
+    <string name="C.rePro">Province :-</string>
+    <string name="C.reEnName">Enter Full Name</string>
+    <string name="C.reEnEmail">Enter Email</string>
+    <string name="C.reEnMobile">Enter Mobile Number</string>
+    <string name="C.reEnPass">Enter Password</string>
+    <string name="C.re_but">Sign Up</string>
+    <string name="C.re_li">Already have an Account ? login</string>
+    <string name="C.re_spinner">Select Province</string>
+
+    <string-array name="select_province">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <!--Customer Profile-->
+    <string name="C.name">Janka Bandanna</string>
+    <string name="C.address">Address :-</string>
+    <string name="C.email">Email :-</string>
+    <string name="C.phone">Phone :-</string>
+    <string name="C.dof">Date Of Birth :-</string>
+    <string name="C.item">No Od Items Delivering</string>
+    <string name="C.enAddress">Colombo</string>
+    <string name="C.enEmail">janaka12@gmail.com</string>
+    <string name="C.enPhone">0771215486</string>
+    <string name="C.enDOB">1998.12.19</string>
+    <string name="C.enItem">05</string>
+    <string name="C.but_update">Update Acc</string>
+    <string name="C.but_delete">Delete Acc</string>
+
+    <!--Customer Update-->
+    <string name="CU.but_update">Update Details</string>
+    <string name="CU.app_name">Update Profile</string>
+    <string name="CU.name">Full Name :-</string>
+    <string name="CU.email">Email :-</string>
+    <string name="CU.phone">Mobile Number :-</string>
+    <string name="CU.password">Password :-</string>
+    <string name="CU.province">Province :-</string>
+
+    <!--Customer Details-->
+    <string name="CD.but_update">Delete Acc</string>
+    <string name="CD.app_name">Delete Profile</string>
+    <string name="CD_Enname">Janaka Bandara</string>
+    <string name="CD_Enemail">janaka12@gmail.com</string>
+    <string name="CD_Enphone">0771215486</string>
+    <string name="CD_Enaddress">Colombo</string>
+    <string name="CD_name">Name :-</string>
+    <string name="CD_email">Email :-</string>
+    <string name="CD_phone">Phone :-</string>
+    <string name="CD_address">Address :-</string>
+
+    <!--Contact Us-->
+    <string name="con_address">Address :-</string>
+    <string name="con_email">Email :-</string>
+    <string name="con_aphone">Mobile Number :-</string>
+    <string name="con_address1">No: 78,</string>
+    <string name="con_address2">Sr. jude Road,</string>
+    <string name="con_address3">Idigolla,</string>
+    <string name="con_address4">Gampaha.</string>
+    <string name="con_email1">charama18@gmail.com</string>
+    <string name="con_email2">Dr.pc78@gmail.com</string>
+    <string name="con_phone1">0778542365</string>
+    <string name="con_phone2">0717842364</string>
+
+    <!--items order-->
+    <string name="ord_app.name">Item Order</string>
+    <string name="ord_address">Address :-</string>
+    <string name="ord_email">Email :-</string>
+    <string name="ord_province">Province :-</string>
+    <string name="ord_phone">Mobile Number :-</string>
+    <string name="ord_radio">Confirm Order</string>
+    <string name="ord_but">Order Items</string>
+
+    <!--Home-->
+    <string name="home_cate">Category</string>
+    <string name="home_com">Computer And Laptops</string>
+    <string name="home_part">Computer Accessories</string>
+    <string name="ho_brand">Dell</string>
+    <string name="ho_brand0">hp</string>
+    <string name="ho_genaration1">i7(10 Generation)</string>
+    <string name="ho_genaration2">i3(10 Generation)</string>
+    <string name="ho_genaration3">i5(10 Generation)</string>
+    <string name="ho_price1">Rs: 250 000</string>
+    <string name="ho_price2">Rs: 97 000</string>
+    <string name="ho_price3">Rs: 150 000</string>
+    <string name="ho_buy1">Buy Now</string>
+    <string name="ho_buy2">Buy Now</string>
+    <string name="ho_buy3">Buy Now</string>
+    <string name="ho_part1">4GB Ram card</string>
+    <string name="ho_part2">2GB NVIDIA VGA</string>
+    <string name="ho_part3">1TB HDD</string>
+    <string name="ho_price4">Rs: 5 000</string>
+    <string name="ho_price5">Rs: 10 000</string>
+    <string name="ho_price6">Rs: 12 000</string>
+    <string name="ho_buy4">Buy Now</string>
+    <string name="ho_buy5">Buy Now</string>
+    <string name="ho_buy6">Buy Now</string>
+
+    <!--ComAndLap-->
+    <string name="CL_topic">Computer And Laptops</string>
+    <string name="CL_brand1">Dell</string>
+    <string name="CL_brand2">Dell</string>
+    <string name="CL_brand3">hp</string>
+    <string name="CL_brand4">hp</string>
+    <string name="CL_brand5">Asus</string>
+    <string name="CL_brand6">hp</string>
+    <string name="CL_gener1">i7(10 Genaration)</string>
+    <string name="CL_gener2">i5(10 Genaration)</string>
+    <string name="CL_gener3">i3(10 Genaration)</string>
+    <string name="CL_price1">Rs: 250 000</string>
+    <string name="CL_price2">Rs: 97 000</string>
+    <string name="CL_price3">Rs: 150 000</string>
+    <string name="CL_price4">Rs: 175 000</string>
+    <string name="CL_price5">Rs: 120 000</string>
+    <string name="CL_price6">Rs: 250 000</string>
+    <string name="CL_buy1">Buy Now</string>
+    <string name="CL_buy2">Buy Now</string>
+    <string name="CL_buy3">Buy Now</string>
+    <string name="CL_buy4">Buy Now</string>
+    <string name="CL_buy5">Buy Now</string>
+    <string name="CL_buy6">Buy Now</string>
+
+    <!--ComAss-->
+    <string name="CA_brand1">4GB RAM</string>
+    <string name="CA_brand2">2GB NVIDIA VGA</string>
+    <string name="CA_brand3">1TB HDD</string>
+    <string name="CA_brand4">4GB RAM</string>
+    <string name="CA_brand5">1TB HDD</string>
+    <string name="CA_brand6">2GB NVIDIA VGA</string>
+    <string name="CA_buy1">Buy Now</string>
+    <string name="CA_buy2">Buy Now</string>
+    <string name="CA_buy3">Buy Now</string>
+    <string name="CA_buy4">Buy Now</string>
+    <string name="CA_buy5">Buy Now</string>
+    <string name="CA_buy6">Buy Now</string>
+    <string name="CA_price1">Rs: 10 000</string>
+    <string name="CA_price2">Rs: 5 000</string>
+    <string name="CA_price3">Rs: 7 000</string>
+    <string name="CA_price4">Rs: 10 000</string>
+    <string name="CA_price5">Rs: 8 300</string>
+    <string name="CA_price6">Rs: 12 000</string>
+
+    <!--order items-->
+    <string name="order_name">Order Items</string>
+    <string name="order_name0">-- Order Items --</string>
+    <string name="order_add">Address :-</string>
+    <string name="order_pro">Province :-</string>
+    <string name="order_email">Email :-</string>
+    <string name="order_phone">Mobile Number :-</string>
+    <string name="order_con">Confirm Order</string>
+    <string name="order_but">Order Items</string>
+
+
+    <!--deliver login-->
+    <string name="deliver_Appname">Dr.PC</string>
+    <string name="D_Aname">Deliver Login</string>
+    <string name="D_log.name">User Name :-</string>
+    <string name="D_log.pass">Password :=-</string>
+    <string name="D_log.Eemail">Enter Email</string>
+    <string name="D_log.Epass">Enter Password</string>
+    <string name="D_but">Login</string>
+    <string name="D_log.link">Dont have an account ? sign up</string>
+    <string name="D._log.copy">2021 CopyRight</string>
+
+    <!--deliver register-->
+    <string name="D_re.appname">Deliver Register</string>
+    <string name="D_re.name">User Name :-</string>
+    <string name="D_re.email">Email :-</string>
+    <string name="D_re.mobile">Mobile Number :-</string>
+    <string name="D_re.pass">Password :-</string>
+    <string name="D_re.pro">Province :-</string>
+    <string name="D_re.but">Sign Up</string>
+    <string name="D_re.link">Already have an Account ? login</string>
+    <string name="D_re.Ename">Enter Name</string>
+    <string name="D_re.Eemail">Enter Email</string>
+    <string name="D_re.Emobile">Enter Mobile Number</string>
+    <string name="D_re.Epass">Enter Password</string>
+
+    <!--delete profile-->
+    <string name="D_pro.appname">Delete Profile</string>
+    <string name="D_pro.name1">Name :-</string>
+    <string name="D_pro.name2">Kasun Bandara</string>
+    <string name="D_pro.did1">Deliver ID :-</string>
+    <string name="D_pro.did2">1</string>
+    <string name="D_pro.dcenter1">Deliver Center :-</string>
+    <string name="D_pro.dcenter2">Westence Province</string>
+    <string name="D_pro.phone1">Phone Number :-</string>
+    <string name="D_pro.phone2">0712341670</string>
+    <string name="D_pro.add1">Address :-</string>
+    <string name="D_pro.add2">Colombo Road, Gampaha</string>
+    <string name="D_pro.dof1">Date Of Birth :-</string>
+    <string name="D_pro.dof2">10.02.1996</string>
+    <string name="D_pro.email1">Email :-</string>
+    <string name="D_pro.email2">kasunbandara@gmail.com</string>
+    <string name="D_pro.but">Delete Profile</string>
+
+    <!--deliver profile-->
+    <string name="D_pro0.appname">Deliver Profile</string>
+    <string name="D_pro0.name1">User Name :-</string>
+    <string name="D_pro0.name2">Kasun Bandara</string>
+    <string name="D_pro0.provi1">Province :-</string>
+    <string name="D_pro0.provi2">Westence Province</string>
+    <string name="D_pro0.phone1">Phone Number :-</string>
+    <string name="D_pro0.phone2">0712341670</string>
+    <string name="D_pro0.pass1">Password :-</string>
+    <string name="D_pro0.pass2">123</string>
+    <string name="D_pro0.email1">Email :-</string>
+    <string name="D_pro0.email2">kasunbandara@gmail.com</string>
+    <string name="D_pro0.but1">Show Deliver Items</string>
+    <string name="D_pro0.but2">Update Account</string>
+    <string name="D_pro0.but3">Delete Acconut</string>
+
+    <!--deliver item-->
+    <string name="D_pro1.appname">Item Details</string>
+    <string name="D_pro1.name1">Name :-</string>
+    <string name="D_pro1.name2">Chathura ranathunga</string>
+    <string name="D_pro1.iname1">Item Name :-</string>
+    <string name="D_pro1.iname2">Dell i7</string>
+    <string name="D_pro1.add1">Address :-</string>
+    <string name="D_pro1.add2">25/21 Ja-ela Road, Gampaha</string>
+    <string name="D_pro1.price1">Price :-</string>
+    <string name="D_pro1.price">Rs:150 000</string>
+    <string name="D_pro1.phone1">Phone Number :-</string>
+    <string name="D_pro1.phone2">0751578369</string>
+    <string name="D_pro1.Dcharge1">Deliver Charge :-</string>
+    <string name="D_pro1.date1">Date :-</string>
+    <string name="D_pro1.date2">15.09.2021</string>
+    <string name="D_pro1.tot">Total Amount :-</string>
+    <string name="D_pro1.email2">Rs: 155 000</string>
+    <string name="D_pro1.but1">Calculate</string>
+    <string name="D_pro1.but2">Confirm Order</string>
+
+    <!--update deliver-->
+    <string name="D_up.appname">Update Profile</string>
+    <string name="D_up.name">User Name:-</string>
+    <string name="D_up.phone">Mobile Number :-</string>
+    <string name="D_up.email">Email :-</string>
+    <string name="D_up_but">Update Profile</string>
+    <string name="D_up.mobile">Password Number :-</string>
+    <string name="D_up.pro">Province :-</string>
+
+    <!--login-->
+    <string name="log_title">Admin Login</string>
+    <string name="log_mail">Email :-</string>
+    <string name="log_EnMail">Enter Your Email</string>
+    <string name="log_Pw">Password :-</string>
+    <string name="log_Enpw">Password</string>
+    <string name="log_but">LOGIN</string>
+    <string name="log_link">Don\'t have an account? sign up</string>
+    <string name="log_cop">2021 Copyright</string>
+
+
+    <!--admin register-->
+    <string name="AR_toolbar">Admin Register</string>
+    <string name="AR_name">User Name :-</string>
+    <string name="AR_enName">Enter Full Name</string>
+    <string name="AR_mail">Email :-</string>
+    <string name="AR_enMail">Enter Email</string>
+    <string name="AR_num">Mobile Number :-</string>
+    <string name="AR_enNum">Mobile Number</string>
+    <string name="AR_pw">Password :-</string>
+    <string name="AR_enpw">Enter Password</string>
+    <string name="AR_but">SIGN UP</string>
+    <string name="AR_link">Already have an Account? Login</string>
+
+
+    //add items
+    <string name="AI_toolbar">Add Items</string>
+    <string name="AI_title">Add Items</string>
+    <string name="AI_category">Category :-</string>
+    <string name="AI_sel">Select</string>
+    <string name="AI_name">Name :-</string>
+    <string name="AI_eName">Name of the Accessory</string>
+    <string name="AI_Price">Price :-</string>
+    <string name="AI_ePrice">Price</string>
+    <string name="AI_des">Description :-</string>
+    <string name="AI_eGen">Generation</string>
+    <string name="AI_but">SUBMIT</string>
+
+
+    //update accessories
+    <string name="UA_toolbar">Update Profile</string>
+    <string name="UA_title0">Update Accessories</string>
+    <string name="UA_name">Name :-</string>
+    <string name="UA_enName">Name of the Accoessory</string>
+    <string name="UA_price">Price :-</string>
+    <string name="UA_enPrice">Price</string>
+    <string name="UA_gen">Generation :-</string>
+    <string name="UA_engen">Generation</string>
+    <string name="UA_but">SUBMIT</string>
+    <string name="UA_link">If you want to delete this account? Click here</string>
+    <string name="UA_title">Update Accessories</string>
+
+    //category
+    <string name="cat_toolbar">Category</string>
+    <string name="cat_title">Choose your category</string>
+    <string name="cat_but1">COMPUTER ACCESSORIES</string>
+    <string name="cat_but2">LAPTOP ACCESSORIES</string>
+
+    //computer accessories
+    <string name="com_toolbar">Computer Accessories</string>
+    <string name="com_title">Computer Accessories</string>
+    <string name="com_name1">KEY BOARD</string>
+    <string name="com_name2">Gaming</string>
+    <string name="com_price">Price - Rs: 1000</string>
+    <string name="com_but_k1">Discount</string>
+    <string name="com_but_k2">Update</string>
+    <string name="com_mname1">MOUSE</string>
+    <string name="com_mname2">Gaming</string>
+    <string name="com_price1">Price - Rs: 800</string>
+    <string name="com_but_m1">Discount</string>
+    <string name="com_but_m2">Update</string>
+
+    //laptop accessories
+    <string name="lap_toolbar">Laptop Accessories</string>
+    <string name="lap_title">Laptop Accessories</string>
+    <string name="lap_name1">RAM 4GB</string>
+    <string name="lap_name2">(DDR4)</string>
+    <string name="lap_price">Price Rs: 5000</string>
+    <string name="lap_but_r1">Discount</string>
+    <string name="lap_but_r2">Update</string>
+    <string name="lap_hname1">HARD DISK</string>
+    <string name="lap_hname2">(Samsung 1TB)</string>
+    <string name="lap_price1">Price - Rs:10,000</string>
+    <string name="lap_but_h1">Discount</string>
+    <string name="lap_but_h2">Update</string>
+
+
+    //admin profile
+    <string name="AD_toolbar">Admin Profile</string>
+    <string name="AD_title">Admin Profile</string>
+    <string name="AD_but_1">Account Update</string>
+    <string name="AD_but_2">Delete Update</string>
+    <string name="AD_adr">Name :-</string>
+    <string name="AD_email">Email Address :-</string>
+    <string name="AD_num">Contact Number :-</string>
+    <string name="AD_n1">032 2245789</string>
+    <string name="AD_but_3">Brand New Computers</string>
+    <string name="AD_but_4">Computer Accessories</string>
+</resources>
