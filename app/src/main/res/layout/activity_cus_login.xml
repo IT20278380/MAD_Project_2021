@@ -65,30 +65,30 @@
         tools:layout_editor_absoluteY="407dp" />
 
     <EditText
-        android:id="@+id/cusLog_inEmail"
+        android:id="@+id/cusLog_inname"
         android:layout_width="287dp"
         android:layout_height="50dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="320dp"
+        android:autofillHints="no"
         android:ems="10"
         android:inputType="textEmailAddress"
+        tools:ignore="LabelFor"
         tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="345dp"
-        android:autofillHints="no"
-        tools:ignore="LabelFor" />
+        tools:layout_editor_absoluteY="345dp" />
 
     <EditText
-        android:id="@+id/CusLog.inPass"
+        android:id="@+id/CusLog_inPass"
         android:layout_width="288dp"
         android:layout_height="49dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="415dp"
+        android:autofillHints="no"
         android:ems="10"
         android:inputType="textPassword"
+        tools:ignore="LabelFor"
         tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="441dp"
-        android:autofillHints="no"
-        tools:ignore="LabelFor"/>
+        tools:layout_editor_absoluteY="441dp" />
 
     <TextView
         android:id="@+id/CusLog.copy"
@@ -118,11 +118,11 @@
         android:id="@+id/cus_but"
         android:layout_width="176dp"
         android:layout_height="49dp"
-        android:background="@color/green"
-        android:textColor="@color/white"
         android:layout_marginStart="115dp"
         android:layout_marginTop="490dp"
+        android:background="@color/green"
         android:text="@string/but_cusLogin"
+        android:textColor="@color/white"
         android:textSize="19sp"
         tools:layout_editor_absoluteX="131dp"
         tools:layout_editor_absoluteY="509dp" />

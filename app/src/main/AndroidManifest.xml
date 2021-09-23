@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MAD_Project_2021">
         <activity
+            android:name=".Cus_Contact"
+            android:exported="true" />
+        <activity
+            android:name=".Cus_Home"
+            android:exported="true" />
+        <activity
+            android:name=".Customer_Area"
+            android:exported="true" />
+        <activity
+            android:name=".Cus_Profile"
+            android:exported="true" />
+        <activity
             android:name=".Admin_Accessories_Lap_Image"
             android:exported="true" />
         <activity

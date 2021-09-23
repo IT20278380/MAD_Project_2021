@@ -7,7 +7,7 @@
 
     <!--customer login-->
     <string name="tet_cusLogin">Customer Login</string>
-    <string name="tet_cusLog_Email">Email :-</string>
+    <string name="tet_cusLog_Email">User Name :-</string>
     <string name="tet_cusLog_Pass">Password :-</string>
     <string name="cusLog_inEmail">Enter Email</string>
     <string name="but_cusLogin">Login</string>
@@ -17,7 +17,7 @@
     <!--customer register-->
     <string name="C.reApp_name">Customer Registration</string>
     <string name="C.main_name">Register Customer</string>
-    <string name="C.reName">Full Name :-</string>
+    <string name="C.reName">User Name :-</string>
     <string name="C.reEmail">Email :-</string>
     <string name="C.reMobile">Mobile Number :-</string>
     <string name="C.rePass">Password :-</string>
@@ -460,6 +460,8 @@
     <string name="com_dis_memo1">Graphics Memory :- 2GB</string>
     <string name="com_dis_ram1">Ram :- 8GB</string>
     <string name="com_b_price1">Price - 145 000</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cus_Contact">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/image_foreground" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="150dp"
+        android:text="Address :-"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="160dp"
+                    android:text="@string/con_address1"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    tools:layout_editor_absoluteX="107dp"
+                    tools:layout_editor_absoluteY="211dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="130dp"
+                        android:layout_marginTop="190dp"
+                        android:text="@string/con_address2"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:layout_editor_absoluteX="107dp"
+                        tools:layout_editor_absoluteY="211dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="130dp"
+                        android:layout_marginTop="220dp"
+                        android:text="@string/con_address3"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        tools:layout_editor_absoluteX="107dp"
+                        tools:layout_editor_absoluteY="211dp" />
+
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="250dp"
+                    android:text="@string/con_address4"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    tools:layout_editor_absoluteX="107dp"
+                    tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="300dp"
+        android:text="Email :-"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="310dp"
+                    android:text="@string/con_email1"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    tools:layout_editor_absoluteX="107dp"
+                    tools:layout_editor_absoluteY="211dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="350dp"
+                    android:text="@string/con_email2"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    tools:layout_editor_absoluteX="107dp"
+                    tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="450dp"
+        android:text="Mobile Number:-"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="475dp"
+                    android:text="@string/con_phone1"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    tools:layout_editor_absoluteX="107dp"
+                    tools:layout_editor_absoluteY="211dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="510dp"
+                    android:text="@string/con_phone2"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    tools:layout_editor_absoluteX="107dp"
+                    tools:layout_editor_absoluteY="211dp" />
+
+</FrameLayout>

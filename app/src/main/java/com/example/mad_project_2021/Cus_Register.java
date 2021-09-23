@@ -7,14 +7,27 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.example.mad_project_2021.tableModules.Customer;
+import com.example.mad_project_2021.tableModules.Delivers;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class Cus_Register extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     TextView textView;
     Spinner spinner;
+    Button register;
+
+    EditText userName, email, mobileNumber, password;
+    String province;
+
+    DatabaseReference Cregister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +35,12 @@ public class Cus_Register extends AppCompatActivity implements AdapterView.OnIte
         setContentView(R.layout.activity_cus_register);
 
         textView = (TextView) findViewById(R.id.C_re_li);
+        userName = (EditText) findViewById(R.id.C_reEnName);
+        email = (EditText) findViewById(R.id.C_reEnEmail);
+        mobileNumber = (EditText) findViewById(R.id.C_reEnMobile);
+        password = (EditText) findViewById(R.id.C_reEnPass);
+
+        register = (Button) findViewById(R.id.Cu_but_update);
 
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +60,38 @@ public class Cus_Register extends AppCompatActivity implements AdapterView.OnIte
         spinner.setAdapter(adapter);
 
         spinner.setOnItemSelectedListener(this);
+
+        //register deliver
+        Cregister = FirebaseDatabase.getInstance().getReference().child("Customers");
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                String CuserName = userName.getText().toString();
+                String Cemail = email.getText().toString();
+                String CmobileNumber = mobileNumber.getText().toString();
+                String Cpassword = password.getText().toString();
+                String Cprovince = province;
+
+                Customer customer = new Customer(CuserName, Cemail, CmobileNumber, Cpassword, Cprovince);
+
+                if(CuserName.isEmpty() || Cemail.isEmpty() || CmobileNumber.isEmpty() || Cpassword.isEmpty() || Cprovince.isEmpty()){
+                    Toast.makeText(Cus_Register.this, "Fill All Details", Toast.LENGTH_SHORT).show();
+
+                }else {
+                    Cregister.child(userName.getText().toString()).setValue(customer);
+                    Toast.makeText(Cus_Register.this, "Customer Registered", Toast.LENGTH_SHORT).show();
+
+                    navigateLogin();
+                }
+
+            }
+        });
+
+    }
+    public void navigateLogin(){
+        Intent intent = new Intent(this, Cus_Login.class);
+        startActivity(intent);
     }
 
 
@@ -53,6 +104,7 @@ public class Cus_Register extends AppCompatActivity implements AdapterView.OnIte
         Toast.makeText(getApplicationContext(),
                 spinner.getItemAtPosition(pos).toString(), Toast.LENGTH_LONG)
                 .show();
+        province = spinner.getItemAtPosition(pos).toString();
     }
 
     // Defining the Callback methods here

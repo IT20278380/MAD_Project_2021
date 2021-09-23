@@ -92,56 +92,56 @@
         tools:layout_editor_absoluteY="480dp" />
 
     <EditText
-        android:id="@+id/C.reEnName"
+        android:id="@+id/C_reEnName"
         android:layout_width="300dp"
         android:layout_height="38dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="200dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="191dp"
         android:importantForAutofill="no"
-        tools:ignore="LabelFor" />
+        android:inputType="textPersonName"
+        tools:ignore="LabelFor"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="191dp" />
 
     <EditText
-        android:id="@+id/C.reEnEmail"
+        android:id="@+id/C_reEnEmail"
         android:layout_width="300dp"
         android:layout_height="38dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="270dp"
         android:ems="10"
-        android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="271dp"
         android:importantForAutofill="no"
-        tools:ignore="LabelFor" />
+        android:inputType="textEmailAddress"
+        tools:ignore="LabelFor"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="271dp" />
 
     <EditText
-        android:id="@+id/C.reEnMobile"
+        android:id="@+id/C_reEnMobile"
         android:layout_width="300dp"
         android:layout_height="38dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="340dp"
         android:ems="10"
-        android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="352dp"
         android:importantForAutofill="no"
-        tools:ignore="LabelFor" />
+        android:inputType="numberDecimal"
+        tools:ignore="LabelFor"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="352dp" />
 
     <EditText
-        android:id="@+id/C.reEnPass"
+        android:id="@+id/C_reEnPass"
         android:layout_width="300dp"
         android:layout_height="38dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="410dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="426dp"
         android:importantForAutofill="no"
-        tools:ignore="LabelFor" />
+        android:inputType="textPersonName"
+        tools:ignore="LabelFor"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="426dp" />
 
     <Button
         android:id="@+id/Cu_but_update"
@@ -150,8 +150,8 @@
         android:layout_marginStart="109dp"
         android:layout_marginTop="550dp"
         android:background="@color/green"
-        android:textColor="@color/white"
         android:text="@string/C.re_but"
+        android:textColor="@color/white"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="105dp"
         tools:layout_editor_absoluteY="600dp" />
