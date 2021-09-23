@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Admin_New_Computer_Image">
+    tools:context=".Admin_Accessories_Com_Image">
 
     <!--Linear Layout with horizontal orientation
      and other properties-->
     <LinearLayout
-        android:id="@+id/layout_button"
+        android:id="@+id/layout_button_2"
         android:orientation="horizontal"
         android:layout_alignParentTop="true"
         android:weightSum="2"
@@ -18,7 +18,7 @@
 
         <!--Button for choosing image from gallery-->
         <Button
-            android:id="@+id/btnChoose"
+            android:id="@+id/btnChoose_2"
             android:text="Choose"
             android:background="@color/green"
             android:textColor="@color/white"
@@ -30,7 +30,7 @@
 
         <!--Button for uploading image-->
         <Button
-            android:id="@+id/btnUpload"
+            android:id="@+id/btnUpload_2"
             android:text="Upload"
             android:background="@color/green"
             android:textColor="@color/white"
@@ -43,7 +43,7 @@
 
     <!--Image View for showing image choosen from gallery-->
     <ImageView
-        android:id="@+id/imgView"
+        android:id="@+id/imgView_2"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

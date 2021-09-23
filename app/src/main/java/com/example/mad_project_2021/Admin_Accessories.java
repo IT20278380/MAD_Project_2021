@@ -7,30 +7,30 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Admin_Brand_New extends AppCompatActivity {
+public class Admin_Accessories extends AppCompatActivity {
 
-    Button computer, leptop;
+    Button comas, lapas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin_brand_new);
+        setContentView(R.layout.activity_admin_accessories);
 
-        computer = (Button) findViewById(R.id.b_com);
-        leptop = (Button) findViewById(R.id.b_lap);
+        comas = findViewById(R.id.as_com);
+        lapas = findViewById(R.id.as_lap);
 
-        computer.setOnClickListener(new View.OnClickListener() {
+        comas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), Admin_Brand_New_Computer.class);
+                Intent i = new Intent(getApplicationContext(), Admin_Computer_Accessoies.class);
                 startActivity(i);
             }
         });
 
-        leptop.setOnClickListener(new View.OnClickListener() {
+        lapas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), Admin_Brand__New_Leptop.class);
+                Intent i = new Intent(getApplicationContext(), Admin_Laptop_Acessories.class);
                 startActivity(i);
             }
         });

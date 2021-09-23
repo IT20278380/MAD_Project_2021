@@ -10,8 +10,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.mad_project_2021.tableModules.Computer;
-import com.example.mad_project_2021.tableModules.Computer_list;
+import com.example.mad_project_2021.tableModules.Com_Acc;
+import com.example.mad_project_2021.tableModules.Com_Acc_list;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -20,7 +20,9 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-public class Admin_Brand_New_Computer extends AppCompatActivity {
+public class Admin_Computer_Accessoies extends AppCompatActivity {
+
+    Button add;
 
     // creating a variable for
     // our Firebase Database.
@@ -30,43 +32,35 @@ public class Admin_Brand_New_Computer extends AppCompatActivity {
     // Database Reference for Firebase.
     DatabaseReference databaseReference;
 
-    Button add;
-
     RecyclerView recyclerView;
-    DatabaseReference database;
-    Computer_list computer_listr;
-    ArrayList<Computer> list;
-
+    DatabaseReference databace;
+    Com_Acc_list com_acc_list;
+    ArrayList<Com_Acc> list;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin_brand_new_computer);
+        setContentView(R.layout.activity_admin_computer_accessoies);
 
-        add = (Button) findViewById(R.id.add_b_com);
+        add = (Button) findViewById(R.id.add_as_com);
 
-        recyclerView = findViewById(R.id.com_list);
-        database = FirebaseDatabase.getInstance().getReference("Brand_New_Computers");
+        recyclerView = findViewById(R.id.ascom_list);
+        databace = FirebaseDatabase.getInstance().getReference("Computers Accessories");
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         list = new ArrayList<>();
-        computer_listr = new Computer_list(this,list);
-        recyclerView.setAdapter(computer_listr);
+        com_acc_list = new Com_Acc_list(this,list);
+        recyclerView.setAdapter(com_acc_list);
 
-        database.addValueEventListener(new ValueEventListener() {
+        databace.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-
-                for (DataSnapshot dataSnapshot : snapshot.getChildren()){
-
-                    Computer computer = dataSnapshot.getValue(Computer.class);
-                    list.add(computer);
-
-
+                for(DataSnapshot dataSnapshot : snapshot.getChildren()){
+                    Com_Acc com_acc = dataSnapshot.getValue(Com_Acc.class);
+                    list.add(com_acc);
                 }
-                computer_listr.notifyDataSetChanged();
-
+                com_acc_list.notifyDataSetChanged();
             }
 
             @Override
@@ -78,11 +72,9 @@ public class Admin_Brand_New_Computer extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), Admin_B_Computer_Add.class);
+                Intent i = new Intent(getApplicationContext(), Admin_Com_Acc_Add.class);
                 startActivity(i);
             }
         });
-
     }
-
 }

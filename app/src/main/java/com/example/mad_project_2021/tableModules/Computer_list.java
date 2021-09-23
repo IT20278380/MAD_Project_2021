@@ -143,5 +143,4 @@ public class Computer_list extends RecyclerView.Adapter<Computer_list.MyViewHold
         }
 
     }
-
 }

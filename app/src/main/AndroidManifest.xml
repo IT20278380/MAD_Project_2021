@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MAD_Project_2021">
         <activity
+            android:name=".Admin_Accessories_Lap_Image"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Lap_Acc_Add"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Laptop_Acessories"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Accessories_Com_Image"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Com_Acc_Add"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Computer_Accessoies"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Accessories"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_New_Laptop_Image"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_B_Laptop_Add"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Brand__New_Leptop"
+            android:exported="true" />
+        <activity
             android:name=".Admin_New_Computer_Image"
             android:exported="true" />
         <activity
@@ -43,4 +73,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
