@@ -95,5 +95,14 @@ public class Deliver_Profile extends AppCompatActivity {
             }
         });
 
+        items.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), Deliver_Items.class);
+                i.putExtra("province", province.getText().toString());
+                startActivity(i);
+            }
+        });
+
     }
 }

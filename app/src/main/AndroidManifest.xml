@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MAD_Project_2021">
         <activity
+            android:name=".Deliver_Items"
+            android:exported="true" />
+        <activity
             android:name=".Cus_Contact"
             android:exported="true" />
         <activity
