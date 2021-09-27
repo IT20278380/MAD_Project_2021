@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Admin_B_Laptop_Add">
+    tools:context=".IT20426958.Admin_B_Laptop_Add">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/appname"

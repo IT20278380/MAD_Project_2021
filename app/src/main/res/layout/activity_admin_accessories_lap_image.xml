@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Admin_Accessories_Lap_Image">
+    tools:context=".IT20479428.Admin_Accessories_Lap_Image">
 
     <!--Linear Layout with horizontal orientation
      and other properties-->

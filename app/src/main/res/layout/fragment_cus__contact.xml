@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Cus_Contact">
+    tools:context=".IT20278380.Cus_Contact">
 
     <ImageView
         android:layout_width="wrap_content"

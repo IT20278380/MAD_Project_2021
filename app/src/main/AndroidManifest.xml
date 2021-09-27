@@ -10,76 +10,76 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MAD_Project_2021">
         <activity
-            android:name=".Deliver_Items"
+            android:name=".IT20276232.Deliver_Items"
             android:exported="true" />
         <activity
-            android:name=".Cus_Contact"
+            android:name=".IT20278380.Cus_Contact"
             android:exported="true" />
         <activity
-            android:name=".Cus_Home"
+            android:name=".IT20278380.Cus_Home"
             android:exported="true" />
         <activity
-            android:name=".Customer_Area"
+            android:name=".IT20278380.Customer_Area"
             android:exported="true" />
         <activity
-            android:name=".Cus_Profile"
+            android:name=".IT20278380.Cus_Profile"
             android:exported="true" />
         <activity
-            android:name=".Admin_Accessories_Lap_Image"
+            android:name=".IT20479428.Admin_Accessories_Lap_Image"
             android:exported="true" />
         <activity
-            android:name=".Admin_Lap_Acc_Add"
+            android:name=".IT20479428.Admin_Lap_Acc_Add"
             android:exported="true" />
         <activity
-            android:name=".Admin_Laptop_Acessories"
+            android:name=".IT20479428.Admin_Laptop_Acessories"
             android:exported="true" />
         <activity
-            android:name=".Admin_Accessories_Com_Image"
+            android:name=".IT20479428.Admin_Accessories_Com_Image"
             android:exported="true" />
         <activity
-            android:name=".Admin_Com_Acc_Add"
+            android:name=".IT20479428.Admin_Com_Acc_Add"
             android:exported="true" />
         <activity
-            android:name=".Admin_Computer_Accessoies"
+            android:name=".IT20479428.Admin_Computer_Accessoies"
             android:exported="true" />
         <activity
-            android:name=".Admin_Accessories"
+            android:name=".IT20479428.Admin_Accessories"
             android:exported="true" />
         <activity
-            android:name=".Admin_New_Laptop_Image"
+            android:name=".IT20426958.Admin_New_Laptop_Image"
             android:exported="true" />
         <activity
-            android:name=".Admin_B_Laptop_Add"
+            android:name=".IT20426958.Admin_B_Laptop_Add"
             android:exported="true" />
         <activity
-            android:name=".Admin_Brand__New_Leptop"
+            android:name=".IT20426958.Admin_Brand__New_Leptop"
             android:exported="true" />
         <activity
-            android:name=".Admin_New_Computer_Image"
+            android:name=".IT20426958.Admin_New_Computer_Image"
             android:exported="true" />
         <activity
-            android:name=".Admin_B_Computer_Add"
+            android:name=".IT20426958.Admin_B_Computer_Add"
             android:exported="true" />
         <activity
-            android:name=".Admin_Brand_New_Computer"
+            android:name=".IT20426958.Admin_Brand_New_Computer"
             android:exported="true" />
         <activity
-            android:name=".Admin_Brand_New"
+            android:name=".IT20426958.Admin_Brand_New"
             android:exported="true" />
         <activity
-            android:name=".Admin_Update"
+            android:name=".IT20426958.Admin_Update"
             android:exported="true" />
         <activity
-            android:name=".Admin_Profile"
+            android:name=".IT20426958.Admin_Profile"
             android:exported="true" />
-        <activity android:name=".Deliver_Update" />
-        <activity android:name=".Deliver_Profile" />
-        <activity android:name=".Deliver_Register" />
-        <activity android:name=".Admin_Register" />
-        <activity android:name=".Deliver_Login" />
-        <activity android:name=".Admin_Loin" />
-        <activity android:name=".Cus_Register" />
-        <activity android:name=".Cus_Login" />
+        <activity android:name=".IT20276232.Deliver_Update" />
+        <activity android:name=".IT20276232.Deliver_Profile" />
+        <activity android:name=".IT20276232.Deliver_Register" />
+        <activity android:name=".IT20479428.Admin_Register" />
+        <activity android:name=".IT20276232.Deliver_Login" />
+        <activity android:name=".IT20479428.Admin_Loin" />
+        <activity android:name=".IT20278380.Cus_Register" />
+        <activity android:name=".IT20278380.Cus_Login" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
